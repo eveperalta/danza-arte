@@ -1,0 +1,220 @@
+/* comienza el menu hasta el boton de inscribete*/
+.column {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.menu h2{
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	left: 450px;
+}
+nav li{
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	left: 350px;
+	margin-right: 50px;
+}
+nav a{
+	text-decoration: none;
+	color: #000;
+}
+.banner{
+	background-image: url(../img/dance_1.jpg);
+	background-size: cover;
+	height: 350px;
+	width: 100%;
+}
+.banner h1{
+	font-family: Neoteric-bold;
+	font-size: 60px;
+	color: #B0B0B0;
+	display: inline-block;
+	position: relative;
+	left: 60px; 
+}
+.banner p{
+	font-family: Latolight;
+	font-size: 14px;
+	color: #B0B0B0;
+	display: inline-block;
+	position: relative;
+	left: 60px; 
+	margin: 10px;
+	padding: 10px;
+	top: -40px;
+}
+button{
+	top: -40px;
+	position: relative;
+	left: 90px;
+	width: 120px;
+	height: 40px;
+	background-color: #06022C;
+	border: solid 1px #06022C; 
+}
+.banner a{
+	text-decoration: none;
+	color: #B0B0B0;
+}
+/*primera parte del section hasta el boton de clases*/
+.fondo1{
+	background-image: url(../img/textura_2.jpg);
+	background-size: cover;
+	position: relative;
+	left: 780px;
+	width: 42%;
+	font-size: 24px;
+	font-family: Neoteric-Regular;
+	text-align:center;
+	display: inline-block;
+}
+.fondo1 p{
+	margin-top: 80px;
+	display: inline-block;
+	position: relative;
+	left: 200px;
+}
+.fondo1 img{
+	width: 150px;
+	height: 150px;
+	position: relative;
+	left: 300px;
+	top: -40px;
+}
+.fondo1 button{
+	width: 250px;
+	height: 50px;
+	border-radius: 5px;
+	position: relative;
+	left: 100px;
+}
+.fondo1 a{
+	text-align: center;
+	text-decoration: none;
+	font-family: Neoteric-Regular;
+	color: #B0B0B0;
+	font-size: 18px;
+}/*profesores foto en duo*/
+.left{
+	background-image: url(../img/instructor_4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 49%;
+	height: 310px;
+	display: inline-block;
+	overflow: hidden;
+	border: 1px solid #06022C;
+
+}
+.right{
+	background-image: url(../img/profesor_9.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 50%;
+	display: inline-block;
+	height: 310px;
+	overflow:hidden;
+	border:1px solid #06022C;
+
+}
+.prof p{
+	border: solid 1px #06022C;
+	width: 400px;
+	height: 50px;
+	position: relative;
+	left: 350px;
+	bottom: 88px;
+	text-align: center;
+	padding:10px;
+	font-size: 16px; 
+	color:#fff;
+	background-color:#06022C;
+}
+.fondo2{
+	background-image: url(../img/textura_2.jpg);
+	background-size:cover;
+	width: 98%;
+	position: relative;
+	left: 12px;
+	margin-top: -120px;
+	height: 230px;
+	font-size: 40px;
+	font-family: DolceVita-ligth;
+	text-align:center;
+	display: inline-block;
+}
+.fondo2 p{
+	margin-top: 80px;
+	display: inline-block;
+	position: relative;
+	left: 200px;
+}
+.visitanos{
+	background-color: #06022C;
+	color: #fff;
+	width: 98%;
+	height: 380px;
+	margin-top: -20px;
+	position: relative;
+	left: 10px;
+}
+.visitanos p, h3{
+	position: relative;
+	left: 110px;
+	top: 70px;
+	width: 25%
+}
+.mapa{
+	position: relative;
+	left: 550px;
+	top:-220px;
+}
+.contacto {
+	margin:20px;
+	padding:10px;
+	background-image: none;
+	position: relative;
+	top: 50px;
+}
+.contacto label {
+	display: block;
+	font-weight: bold;
+	display: block;
+	border: solid 1px grey;
+	width: 650px;
+	height: 60px;
+}
+.contacto div{
+	margin:10px;
+	padding:10px;
+}
+input{
+	background-color: #06022C;
+	width: 650px;
+	height: 60px;
+	color: grey;
+
+}
+.ballet{
+	background-image: url(../img/shoes_1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+}
+footer{
+	background-color: #06022C;
+	color: grey;
+	font-size: 16px;
+	text-align: left;
+	height: 50px;
+	margin-top: 10px;
+	width: 50%;
+	position: relative;
+	left:750px;
+}
+footer p{
+	margin:10px;
+	padding: 10px;
+}
