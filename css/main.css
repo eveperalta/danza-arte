@@ -3,24 +3,7 @@
 	padding-right: 0px;
 	padding-left: 0px;
 	margin-right: 0px;
-	margin-left:opx;
-}
-.menu h2{
-	text-align: center;
-	display: inline-block;
-	position: relative;
-	left: 450px;
-}
-nav li{
-	list-style: none;
-	display: inline-block;
-	position: relative;
-	left: 350px;
-	margin-right: 50px;
-}
-nav a{
-	text-decoration: none;
-	color: #000;
+	margin-left:0px;
 }
 .banner{
 	background-image: url(../img/dance_1.jpg);
@@ -111,7 +94,7 @@ button{
 
 }
 .right{
-	background-image: url(../img/profesor_9.jpg);
+	background-image: url(../img/kimmendez.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 50%;
@@ -152,77 +135,6 @@ button{
 	position: relative;
 	left: 200px;
 }
-/* donde empieza el mapa hasta aqui va ok*/
-.visitanos{
-	background-color: #06022C;
-	color: #fff;
-	width: 98%;
-	height: 380px;
-	margin-top: -15px;
-	position: relative;
-	left: 10px;
-}
-.visitanos p, h3{
-	position: relative;
-	left: 80px;
-	top: 50px;
-	width: 20%;
-	font-size:14px;
-}
-.mapa{
-	position: relative;
-	left: 650px;
-	top:-220px;
-}
-/*no logre separar la imagen de fondo del div con el formulario*/
-.contacto {
-	margin:20px;
-	padding:10px;
-	background-image: none;
-	position: relative;
-	top: 30px;
-}
-.contacto label {
-	display: block;
-	font-weight: bold;
-	border: solid 1px grey;
-	width: 450px;
-	height: 40px;
-	position: relative;
-}
-.contacto div{
-	margin:10px;
-	padding:10px;
-}
-input{
-	background-color: #06022C;
-	width: 450px;
-	height: 40px;
-	color: grey;
-	position: relative;
-}
-.ballet{
-	background-image: url(../img/shoes_1.jpg);
-	background-repeat: no-repeat;
-	background-size: auto;
-	width: 100%;
-	height: 450px;
-}
-footer{
-	background-color: #06022C;
-	color: grey;
-	font-size: 16px;
-	text-align: left;
-	height: 50px;
-	margin-top: 10px;
-	width: 100%;
-	position: relative;
-
-}
-footer p{
-	margin:10px;
-	padding: 10px;
-}
 /*aqui empieza el css de NOSOTROS*/
 .banner2{
 	background-image: url(../img/dance_7.jpg);
@@ -260,51 +172,129 @@ footer p{
 	background-size: auto;
 	margin-top: -30px;
 	width: 100%;
-	height: 200px;
+	height: 300px;
 }
 .pilar1, .pilar2, .pilar3 h2{
 	display: inline-block;
 	position: relative;
-	left: 50px;
 
 }
-.pilar1 p{
-	text-align: center;
+.pilar hr{
+	width: 20%;
 	display: inline-block;
-	font-size: 12px;
-	width: 220px;
 	position: relative;
-	margin: 20px;
+}
+.pilar1{
+	display: inline-block;
+	position: relative;
+	left: 200px;
+	width: 200px;
+	height: 120px;
+	margin:10px;
+	padding: 10px;
+	text-align: center;
+	top: 30px;
+}
+.pilar2{
+	display: inline-block;
+	position: relative;
+	left: 200px;
+	width: 200px;
+	height: 120px;
+	margin:10px;
+	padding: 10px;
+	text-align: center;
+	top: 30px;
+}
+.pilar3{
+	display: inline-block;
+	float: left;
+	width: 200px;
+	height: 120px;
+	position: relative;
+	left: -250px;
+	margin:5px;
 	padding: 5px;
-	top:-40px;
+	text-align: center;
+	top: 30px;
+}
+.instructores{
+	position: relative;
+	top: 20px;
+	left: 60px;
+	float: left;
+	overflow: hidden;
+	width: 250px;
+	height: 260px;
+}
+.instructores img{
+	width: 150px;
+	height: 150px;
+	float: left;
+	border: 2px solid #E4E3E3;
+	padding: 2px;
+	margin: 10px;
+	position: relative;
+}
+.instructores h3{
+	position: relative;
+	width: 100%;
+	margin:10px;
+	display: inline-block;
+	top: 8px;
+}
 
+.instructores p{
+	position: relative;
+	width: 100%;
+	margin:5px;
+	display: inline-block;
+	left: 85px;
+	font-size: 10px;
 }
-.pilar1 hr{
-	width:70%;
+.fondo4{
+	background-image: url(../img/cubes.png);
+	background-size: auto;
+	margin-top: 20px;
+	width: 100%;
+	height:150px;
+}
+.fondo4 p{
+	font-size: 24px;
+	text-align: center;
+	margin-top: 50px;
 	display: inline-block;
 	position: relative;
-	left: 40px;
-	margin: 5px;
+	left: 400px;
+	font-family: DolceVita-ligth;
 }
-.pilar2 p{
-	text-align: center;
-	display: inline-block;	
-	font-size: 12px;
-	width: 220px;
+/*AQUI COMIENZA OFERTAS DE CLASES*/
+.back{
+	width: 100%;
+	height: 800px;
+	background-color: #ECEBEB;
+	top: 20px;
+	overflow: hidden;
+}
+.baile{
+	width: 330px;
+	height: 380px;
+	float: left;
+	margin:10px;
+	padding: 5px;
 	position: relative;
-	margin: 30px;
-	padding: 15px;
-	left: -100px;
-	top: -40px;
+	top: 50px;
+	left: 50px;
+	image-rendering: 70%;
 }
-.pilar3 p{
-	text-align: center;
-	display: inline-block;
-	font-size: 12px;
-	width: 220px;
+.baile2{
+	width: 330px;
+	height: 380px;
+	margin:10px;
+	padding: 5px;
 	position: relative;
-	margin: 30px;
-	padding: 15px;
-	top:-40px;
-	left: -90px;
+	top: 50px;
+	left: -40px;
+	image-rendering: 70%;
 }
+
