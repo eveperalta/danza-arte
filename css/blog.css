@@ -1,1 +1,107 @@
-/* Inserta tu codigo aqui */
+.back{
+	width: 100%;
+	height: 930px;
+	background-color: #ECEBEB;
+	overflow: hidden;
+}
+h1{
+	margin-left:650px;
+}
+.caja_lado{
+	position: relative;
+	width: 100%;
+	background-color:rgba(186, 186, 186, 1);
+	height: 250px;
+	margin:20px;
+	left: 80px;
+}
+.caja_lado img{
+	width: 27%;
+	height: 250px;
+}
+.caja_lado h3{
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	left: 325px;
+	top:-250px;
+	margin:20px;
+}
+.caja_lado  h5{
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	left: 325px;
+	top:-280px;
+	color: #716F6F;
+	margin:20px;
+}
+.caja_lado p{
+	display: inline-block;
+	width: 65%;
+	position: relative;
+	left: 345px;
+	top:-285px;
+	margin: -3px;
+	line-height: 22px;
+}
+input{
+	width: 190px;
+	height: 40px;
+	position: relative;
+	top:-240px;
+	left: -405px;
+	border:1px solid #021C68;
+	border-radius: 5px;
+	background-color: #021C68;
+	color: #BBBBBB;
+}
+.caja_lado2{
+	position: relative;
+	width: 100%;
+	background-color:rgba(186, 186, 186, 1);
+	height: 250px;
+	margin:20px;
+	left: 80px;
+}
+.caja_lado2 img{
+	width: 27%;
+	height: 250px;
+}
+.caja_lado2 h3{
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	left: 325px;
+	top:-250px;
+	margin:20px;
+}
+.caja_lado2  h5{
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	left: 325px;
+	top:-280px;
+	color: #716F6F;
+	margin:20px;
+}
+.caja_lado2 p{
+	display: inline-block;
+	width: 65%;
+	position: relative;
+	left: 345px;
+	top:-285px;
+	margin: -3px;
+	line-height: 22px;
+}
+.caja_lado2 input{
+	width: 190px;
+	height: 40px;
+	position: relative;
+	top:-240px;
+	left: -400px;
+	border:1px solid #021C68;
+	border-radius: 5px;
+	background-color: #021C68;
+	color: #BBBBBB;
+}

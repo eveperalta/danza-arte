@@ -8,32 +8,34 @@
 .banner{
 	background-image: url(../img/dance_1.jpg);
 	background-size: cover;
-	height: 350px;
+	background-repeat: no-repeat;
+	height: 280px;
 	width: 100%;
+
 }
 .banner h1{
-	font-family: Neoteric-bold;
+	font-family: 'Neoteric-bold';
 	font-size: 60px;
 	color: #B0B0B0;
 	display: inline-block;
 	position: relative;
-	left: 60px; 
+	left: -130px; 
+	top:20px;
+	margin:5px;
 }
 .banner p{
-	font-family: Latolight;
-	font-size: 14px;
+	font-family: 'Latolight';
+	font-size: 12px;
 	color: #B0B0B0;
-	display: inline-block;
 	position: relative;
-	left: 60px; 
-	margin: 10px;
-	padding: 10px;
-	top: -40px;
+	left: 50px; 
+	top: 90px;
+	text-align: center;
 }
 button{
-	top: -40px;
+	top: 100px;
 	position: relative;
-	left: 90px;
+	left: 70px;
 	width: 120px;
 	height: 40px;
 	background-color: #06022C;
@@ -47,26 +49,25 @@ button{
 /*primera parte del section hasta el boton de clases*/
 .fondo1{
 	background-image: url(../img/textura_2.jpg);
-	position: relative;
 	background-size: cover;
-	width: 100%;
+	height: 280px;
+	width:100%;
 	font-size: 24px;
-	font-family: Neoteric-Regular;
+	font-family: 'Neoteric-Regular';
 	text-align:center;
-	display: inline-block;
 }
 .fondo1 p{
-	margin-top: 60px;
-	display: inline-block;
+	margin-top: 40px;
 	position: relative;
-	left: 200px;
+	left:200px;
+	
 }
 .fondo1 img{
 	width: 150px;
 	height: 150px;
 	position: relative;
 	left: 300px;
-	top: -40px;
+	top:-60px;
 }
 .fondo1 button{
 	width: 250px;
@@ -74,11 +75,12 @@ button{
 	border-radius: 5px;
 	position: relative;
 	left: 100px;
+	top:-60px;
 }
 .fondo1 a{
 	text-align: center;
 	text-decoration: none;
-	font-family: Neoteric-Regular;
+	font-family: 'Neoteric-Regular';
 	color: #B0B0B0;
 	font-size: 18px;
 }/*profesores foto en duo*/
@@ -88,213 +90,47 @@ button{
 	background-repeat: no-repeat;
 	width: 49%;
 	height: 310px;
-	display: inline-block;
-	overflow: hidden;
-	border: 1px solid #06022C;
-
+	position: relative;
+	top:-40px;
+	border:1px solid #06022C;
+	right: -4px;
 }
 .right{
 	background-image: url(../img/kimmendez.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 50%;
-	display: inline-block;
 	height: 310px;
-	overflow:hidden;
+	position: relative;
+	top:-40px;
+	right: 4px;
 	border:1px solid #06022C;
-
 }
 .prof p{
 	border: solid 1px #06022C;
 	width: 400px;
 	height: 50px;
 	position: relative;
-	left: 350px;
-	bottom: 88px;
+	left: 230px;
+	bottom: 125px;
 	text-align: center;
-	padding:10px;
+	padding:8px;
 	font-size: 16px; 
 	color:#fff;
 	background-color:#06022C;
 }
 .fondo2{
 	background-image: url(../img/textura_2.jpg);
-	width: 98%;
-	position: relative;
-	left: 10px;
-	margin-top: -120px;
+	width: 100%;
+	margin-top: -142px;
 	height: 230px;
-	font-size: 40px;
-	font-family: DolceVita-ligth;
+	font-size: 36px;
+	font-family: 'DolceVita-ligth';
 	text-align:center;
 	display: inline-block;
 }
 .fondo2 p{
 	margin-top: 80px;
-	display: inline-block;
 	position: relative;
-	left: 200px;
+	left: 180px;
 }
-/*aqui empieza el css de NOSOTROS*/
-.banner2{
-	background-image: url(../img/dance_7.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 350px;
-	width: 100%;
-}
-.caja{
-	border: 1px solid black;
-	background: black;
-	opacity: 0.3;
-	left: 400px;
-	top: 70px;
-	width: 400px;
-	position: relative;
-}
-.caja p{
-	color: #fff;
-	text-align: center;
-	position: relative;
-	font-size: 14px;
-	padding: 10px;
-}
-.caja h2{
-	text-align: center;
-	position: relative;
-	left: 150px;
-	color: #fff;
-	display: inline-block;
-	text-align: center;
-}
-.fondo3{
-	background-image: url(../img/cubes.png);
-	background-size: auto;
-	margin-top: -30px;
-	width: 100%;
-	height: 300px;
-}
-.pilar1, .pilar2, .pilar3 h2{
-	display: inline-block;
-	position: relative;
-
-}
-.pilar hr{
-	width: 20%;
-	display: inline-block;
-	position: relative;
-}
-.pilar1{
-	display: inline-block;
-	position: relative;
-	left: 200px;
-	width: 200px;
-	height: 120px;
-	margin:10px;
-	padding: 10px;
-	text-align: center;
-	top: 30px;
-}
-.pilar2{
-	display: inline-block;
-	position: relative;
-	left: 200px;
-	width: 200px;
-	height: 120px;
-	margin:10px;
-	padding: 10px;
-	text-align: center;
-	top: 30px;
-}
-.pilar3{
-	display: inline-block;
-	float: left;
-	width: 200px;
-	height: 120px;
-	position: relative;
-	left: -250px;
-	margin:5px;
-	padding: 5px;
-	text-align: center;
-	top: 30px;
-}
-.instructores{
-	position: relative;
-	top: 20px;
-	left: 60px;
-	float: left;
-	overflow: hidden;
-	width: 250px;
-	height: 260px;
-}
-.instructores img{
-	width: 150px;
-	height: 150px;
-	float: left;
-	border: 2px solid #E4E3E3;
-	padding: 2px;
-	margin: 10px;
-	position: relative;
-}
-.instructores h3{
-	position: relative;
-	width: 100%;
-	margin:10px;
-	display: inline-block;
-	top: 8px;
-}
-
-.instructores p{
-	position: relative;
-	width: 100%;
-	margin:5px;
-	display: inline-block;
-	left: 85px;
-	font-size: 10px;
-}
-.fondo4{
-	background-image: url(../img/cubes.png);
-	background-size: auto;
-	margin-top: 20px;
-	width: 100%;
-	height:150px;
-}
-.fondo4 p{
-	font-size: 24px;
-	text-align: center;
-	margin-top: 50px;
-	display: inline-block;
-	position: relative;
-	left: 400px;
-	font-family: DolceVita-ligth;
-}
-/*AQUI COMIENZA OFERTAS DE CLASES*/
-.back{
-	width: 100%;
-	height: 800px;
-	background-color: #ECEBEB;
-	top: 20px;
-	overflow: hidden;
-}
-.baile{
-	width: 330px;
-	height: 380px;
-	float: left;
-	margin:10px;
-	padding: 5px;
-	position: relative;
-	top: 50px;
-	left: 50px;
-	image-rendering: 70%;
-}
-.baile2{
-	width: 330px;
-	height: 380px;
-	margin:10px;
-	padding: 5px;
-	position: relative;
-	top: 50px;
-	left: -40px;
-	image-rendering: 70%;
-}
-

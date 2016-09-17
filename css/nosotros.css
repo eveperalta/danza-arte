@@ -1,1 +1,115 @@
-/* Inserta tu codigo aqui */
+.banner2{
+	background-image: url(../img/dance_7.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 350px;
+	width: 100%;
+}
+.caja{
+	background-color:rgba(23,23,23,0.4);
+	left: 310px;
+	top: 70px;
+	width: 400px;
+	position: relative;
+}
+.caja p{
+	color: #fff;
+	text-align: center;
+	position: relative;
+	font-size: 14px;
+	padding: 10px;
+}
+.caja h2{
+	text-align: center;
+	position: relative;
+	left: 150px;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+}
+.fondo3{
+	background-image: url(../img/cubes.png);
+	background-size: auto;
+	margin-top: -30px;
+	width: 100%;
+	height: 300px;
+}
+.pilar1, .pilar2, .pilar3 h2{
+	display: inline-block;
+	margin:5px;
+	padding: 10px;
+}
+.pilar hr{
+	width: 20%;	
+}
+.pilar1{
+	position: relative;
+	left: 70px;
+	width: 200px;
+	height: 120px;
+	text-align: center;
+}
+.pilar2{
+	position: relative;
+	left: 130px;
+	width: 200px;
+	height: 120px;
+	text-align: center;
+}
+.pilar3{
+	position: relative;
+	left: -100px;
+	top: 15px;
+	width: 200px;
+	height: 120px;
+	text-align: center;
+}
+h1{
+	margin-left:450px;
+	margin-top:30px;
+}
+.instructores{
+	position: relative;
+	top: 20px;
+	float: left;
+	overflow: hidden;
+	left: 50px;
+	width: 220px;
+}
+.instructores img{
+	width: 100%;
+	height: 180px;
+	position: relative;
+	padding: 10px;
+}
+.instructores h3{
+	position: relative;
+	width: 100%;
+	left: 15px;
+	display: inline-block;
+	top: -15px;
+}
+.instructores p{
+	position: relative;
+	width: 100%;
+	top: -35px;
+	left: 15px;
+	display: inline-block;
+	font-size: 10px;
+}
+.fondo4{
+	background-image: url(../img/cubes.png);
+	background-size: auto;
+	margin-top: 10px;
+	width: 100%;
+	height:180px;
+}
+.fondo4 p{
+	font-size: 36px;
+	text-align: center;
+	margin-top: 50px;
+	display: inline-block;
+	position: relative;
+	left: 280px;
+	font-family: 'DolceVita-ligth';
+}/* Inserta tu codigo aqui */

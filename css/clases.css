@@ -1,1 +1,80 @@
-/* Inserta tu codigo aqui */
+.back{
+	width: 100%;
+	height: 950px;
+	background-color: #ECEBEB;
+	overflow: hidden;
+}
+h1{
+	margin-left:450px;
+}
+.baile{
+	background-image: url(../img/dance_12.jpg);
+	width: 100%;
+	height: 380px;
+	margin:20px;
+	padding: 5px;
+	background-repeat: no-repeat;
+	background-size: 313px;
+	position: relative;
+	left: 70px;	
+}
+.baile2{
+	background-image: url(../img/breakdance.jpg);
+	width: 100%;
+	height: 380px;
+	margin:20px;
+	padding: 5px;
+	background-repeat: no-repeat;
+	background-size: 313px;
+	position: relative;
+	left: 400px;
+	top: -410px;
+}
+.baile3{
+	background-image: url(../img/lirical-jazz.jpg);
+	width: 100%;
+	height: 380px;
+    margin:20px;
+	padding: 5px;
+	background-repeat: no-repeat;
+	background-size: 313px;
+	position: relative;
+	left: 780px;
+	top: -840px;
+}
+.baile4{
+	background-image: url(../img/arabe.jpg);
+	width: 100%;
+	height: 380px;
+	margin:20px;
+	padding: 5px;
+	background-repeat: no-repeat;
+	background-size: 313px;
+	position: relative;
+	left: 70px;
+	top:-860px;	
+}
+.baile5{
+	background-image: url(../img/little.jpg);
+	width: 100%;
+	height: 380px;
+	margin:20px;
+	padding: 5px;
+	background-repeat: no-repeat;
+	background-size: 313px;
+	position: relative;
+	left: 400px;
+	top:-1270px;
+}
+.baile6{
+	background-image: url(../img/yoga.jpg);
+	width: 100%;
+	height: 380px;
+    margin:20px;
+	padding: 5px;
+	background-repeat: no-repeat;
+	background-size: 313px;
+	position: relative;
+	left: 780px;
+	top:-1700px;
+}
